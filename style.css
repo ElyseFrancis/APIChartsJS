@@ -1,0 +1,12 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+table, th, td {
+  border:1px solid black;
+}
+.container{
+  width:500px;
+  height:500px;
+}

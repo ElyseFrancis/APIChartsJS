@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>currancy comparing</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<h1>Comparing US Dollar with the major currencies</h1>
+    <button onclick="window.location.reload()">Reload data</button>
+<table>
+  <tr>
+    <th>US Dollar</th>
+    <th>1.0000</th>
+    <th>USD</th>
+ 
+  </tr>
+  <tr>
+    <td>Euro</td>
+    <td id="eur">1.013</td>
+ <td>EUR</td>
+  </tr>
+  <tr>
+    <td>Canadian Dollar</td>
+    <td id="cad">1.013</td>
+   <td>CAD</td>
+  </tr>
+    <tr>
+    <td>Swiss Franc</td>
+    <td id="chf">1.013</td>
+   <td>CHF</td>
+  </tr>
+   <tr>
+    <td>Japanese Yen</td>
+    <td id="jpy">1.013</td>
+     <td>JPY</td>
+  </tr>
+</table>
+
+
+<div  id="container" class="container">
+  <canvas id="myChart"></canvas>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+
+
+  
+  
+  <script src="script.js"></script>
+
+</body>
+
+</html>
